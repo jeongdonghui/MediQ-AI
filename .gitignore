@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual env
+venv/
+.env/
+.venv/
+env/
+
+# HuggingFace / model cache
+hf_cache/
+.cache/
+transformers/
+datasets/
+
+# Training outputs
+outputs/
+checkpoint-*/
+runs/
+logs/
+wandb/
+
+# Large model files
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.jsonl
+
+# But allow sample data if needed
+!data/sample_*.csv
+!data/README.md
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
